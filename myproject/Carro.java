@@ -8,7 +8,12 @@ public class Carro extends Vehiculo{
     private boolean todo_terreno;
     
     // Construct
+    public Carro(String marca, int modelo, String color) {
+        super(marca, modelo, color);
+    }
+
     public Carro(String marca, int modelo, String color, int pasajeros, int airbags, boolean todo_terreno) {
+        super(marca, modelo, color);
         this.pasajeros = pasajeros;
         this.airbags = airbags;
         this.todo_terreno = todo_terreno;

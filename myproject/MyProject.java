@@ -28,9 +28,29 @@ public class MyProject {
         
         //-------------------------------------------------------------
         
-        Carro mini = new Carro(5, 2, false);
+        Carro mini = new Carro("Mazda", 2019, "Rojo", 5, 2, false);
         
         System.out.println("El mini transporta " + mini.getPasajeros() + " pasajeros");
+        System.out.println("EL mini es de color " + mini.getColor() + ".");
+        
+        //-------------------------------------------------------------
+        
+        Carro van = new Carro("Dodge", 2024, "Plateado");
+        System.out.println("La van es de marca " + van.getMarca());
+        
+        van.setTodo_terreno(true);
+        
+        if (van.isTodo_terreno()) {
+            System.out.println("La van es todo terreno.");
+        } else {
+            System.out.println("La van NO es todo terreno.");
+        }
+        
+        //-----------------------------------------------------------
+        
+        Moto akt = new Moto("AKT", 2023, "Negra");
+        
+        System.out.println("La moto es de marca " + akt.getMarca().toLowerCase());
         
     }
     
