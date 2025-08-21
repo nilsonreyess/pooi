@@ -218,9 +218,9 @@ public class FrmMain extends javax.swing.JFrame {
     private javax.swing.JLabel lblMedicamento;
     private javax.swing.JLabel lblTipoMedicamento;
     private javax.swing.JLabel lblTitle;
-    private javax.swing.JRadioButton rdbCemefar;
-    private javax.swing.JRadioButton rdbCofarma;
-    private javax.swing.JRadioButton rdbEmpsephar;
+    public javax.swing.JRadioButton rdbCemefar;
+    public javax.swing.JRadioButton rdbCofarma;
+    public javax.swing.JRadioButton rdbEmpsephar;
     public javax.swing.JSpinner spnCantidad;
     public javax.swing.JTextField txtMedicamento;
     // End of variables declaration//GEN-END:variables

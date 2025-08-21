@@ -223,6 +223,9 @@
           <Connection code="&quot;Cofarma&quot;" type="code"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JRadioButton" name="rdbEmpsephar">
       <Properties>
@@ -234,6 +237,9 @@
           <Connection code="&quot;Empsephar&quot;" type="code"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JRadioButton" name="rdbCemefar">
       <Properties>
@@ -245,6 +251,9 @@
           <Connection code="&quot;Cemefar&quot;" type="code"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="lblDespachar">
       <Properties>

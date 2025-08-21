@@ -11,25 +11,27 @@ public class FrmReport extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        lblPedido = new javax.swing.JLabel();
+        lblDespachar = new javax.swing.JLabel();
         btnCancelar = new javax.swing.JButton();
         btnEnviar = new javax.swing.JButton();
-        lblPedido = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        lblDespachar = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        btnCancelar.setText("Cancelar Pedido");
-
-        btnEnviar.setText("Enviar Pedido");
-
-        lblPedido.setText("Pedido realizado");
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Resumen pedido de medicamentos");
+        setAlwaysOnTop(true);
 
         jLabel1.setFont(new java.awt.Font("Liberation Sans", 1, 18)); // NOI18N
         jLabel1.setText("Resumen del Pedido");
 
+        lblPedido.setText("Pedido realizado");
+
         lblDespachar.setText("Despachar a: ");
+
+        btnCancelar.setText("Cancelar Pedido");
+
+        btnEnviar.setText("Enviar Pedido");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -78,11 +80,11 @@ public class FrmReport extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCancelar;
-    private javax.swing.JButton btnEnviar;
+    public javax.swing.JButton btnCancelar;
+    public javax.swing.JButton btnEnviar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JLabel lblDespachar;
-    private javax.swing.JLabel lblPedido;
+    public javax.swing.JLabel lblDespachar;
+    public javax.swing.JLabel lblPedido;
     // End of variables declaration//GEN-END:variables
 }
